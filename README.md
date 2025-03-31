@@ -4,9 +4,9 @@
 ##  Datos del Proyecto  
 |         |      |  
 |-------------------|----------------------|  
-| **Apellido y Nombre** | [Tu Nombre]         |  
+| **Apellido y Nombre** | Gonzalo Barbano Sumay         |  
 | **Materia**        | Diseño Orientado a Objetos |  
-| **Profesor**       | [Nombre del Profesor] |  
+| **Profesor**       | Matias Velasquez |  
 | **Año**           | 2025                 |  
 
 ---
