@@ -17,7 +17,7 @@ Este proyecto tiene como objetivo desarrollar un sistema de gestión de turnos q
 ---
 
 ## 📁 DIAGRAMAS Y DISEÑOS  
-   **Informacion Adicional
+   **Informacion Adicional**
 🔗 **[Anexo](anexos.md)**  
 
 
