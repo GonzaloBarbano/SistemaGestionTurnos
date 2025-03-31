@@ -1,11 +1,13 @@
 # Sistema de Gestion de Turnos - Diseño de Sistema  
 
 ---
-### Datos del Proyecto  
-**Apellido y Nombre:** Gonzalo Barbano Sumay  
-**Materia:** Diseño Orientado a Objetos  
-**Profesor:** Matias Velasquez  
-**Año:** 2025  
+##  Datos del Proyecto  
+| **Campo**          | **Información**        |  
+|-------------------|----------------------|  
+| **Apellido y Nombre** | [Tu Nombre]         |  
+| **Materia**        | Diseño Orientado a Objetos |  
+| **Profesor**       | [Nombre del Profesor] |  
+| **Año**           | 2025                 |  
 
 ---
 
