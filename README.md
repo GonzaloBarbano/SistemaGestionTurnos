@@ -2,7 +2,7 @@
 
 ---
 ##  Datos del Proyecto  
-
+|         |      |  
 |-------------------|----------------------|  
 | **Apellido y Nombre** | [Tu Nombre]         |  
 | **Materia**        | Diseño Orientado a Objetos |  
