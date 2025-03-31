@@ -73,5 +73,6 @@ La Programación Orientada a Objetos (POO) es un enfoque de desarrollo basado en
 ---
 
 ## 📌 **Boceto Inicial del Diseño de Clases**  
- 
+
+![](EXC.png)
 🔗 https://excalidraw.com/#json=qnVOyF757zxbcYxp7pgUX,J495c0L8WSq44yCjRawn-A
