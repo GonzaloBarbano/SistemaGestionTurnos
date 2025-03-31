@@ -1,14 +1,22 @@
-# Sistema de Gestión de Turnos
+# Sistema de Gestion de Turnos - Diseño de Sistema  
 
-## Descripción
-Este proyecto es un sistema de gestión de turnos diseñado para facilitar la asignación y administración de turnos en distintos escenarios. Implementa principios de la Programación Orientada a Objetos (POO) para garantizar una estructura modular y escalable.
+---
+### Datos del Proyecto  
+**Apellido y Nombre:** Gonzalo Barbano Sumay  
+**Materia:** Diseño Orientado a Objetos  
+**Profesor:** Matias Velasquez  
+**Año:** 2025  
 
-## Estructura del Repositorio
-- `README.md`: Documento principal con información del proyecto.
-- `anexos.md`: Contiene un enlace a la introducción sobre el diseño orientado a objetos.
-- `introduccion.md`: Explica los fundamentos de POO, los requisitos del sistema y los casos de uso.
-- Carpeta `diagrams/`: Contiene los bocetos y diagramas del sistema.
+---
 
-## Anexos
-Para más detalles sobre el diseño orientado a objetos y la estructura del sistema, revisa el siguiente archivo:  
-👉 [Anexos](anexos.md)
+## ✨ INTRODUCCIÓN  
+Este proyecto tiene como objetivo desarrollar un sistema de gestión de turnos que facilite la organización y asignación eficiente de citas. Se basa en los principios de la Programación Orientada a Objetos para garantizar escalabilidad y modularidad.
+
+---
+
+## 📁 DIAGRAMAS Y DISEÑOS  
+   **Informacion Adicional
+🔗 **[Anexo](anexos.md)**  
+
+
+---
