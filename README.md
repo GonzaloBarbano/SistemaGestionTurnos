@@ -12,11 +12,10 @@
 ---
 
 ## ✨ INTRODUCCIÓN  
-Este repositorio contiene el diseño conceptual inicial de un sistema de gestión de turnos médicos para un pequeño centro de salud, aplicando los principios de la Programación Orientada a Objetos (POO). Este es el segundo entregable del trabajo práctico o actividad de la materia Diseño Orientado a Objetos.
-
+Este repositorio contiene el diseño conceptual inicial de un sistema de gestión de turnos médicos para un pequeño centro de salud, aplicando los principios de la Programación Orientada a Objetos (POO). Este es el primer entregable del trabajo práctico de la materia Diseño Orientado a Objetos.
 ---
 
-## 📁 ANEXOS
+## 📁 DIAGRAMAS Y DISEÑOS
    **Puedes encontrar informacion adicional en:**
    
 🔗 **[Anexo](anexos.md)**  
