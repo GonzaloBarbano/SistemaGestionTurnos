@@ -20,6 +20,11 @@
    **Puedes encontrar informacion adicional en:**
    
 🔗 **[Anexos](anexos.md)**  
+🔗 **[Diagramas UML](diagramasUML.md)**    
+🔗 **[Diagramas de Casos de Uso](diagramas_de_casos_de_uso.md)**    
+🔗 **[Escenario de Casos de Uso](escenarios_de_casos_de_uso.md)**    
+🔗 **[Herramientas Agile](herramientas_agile.md)**
+
 
 
 ---
