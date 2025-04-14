@@ -19,7 +19,7 @@
 ## 📁 DIAGRAMAS Y DISEÑOS
    **Puedes encontrar informacion adicional en:**
    
-🔗 **[Anexo](anexos.md)**  
+🔗 **[Anexos](anexos.md)**  
 
 
 ---
