@@ -21,7 +21,7 @@ Quiero recordar mis turnos anteriores.
 
 **Propiedad:** nombre, apellido, fechaNacimiento, DNI, direccion,telefono,email.
 
-![Captura de pantalla 2025-04-21 143537](pacienteCRC.png)
+![Captura de pantalla](pacienteCRC.png)
 
 
 ### Tarjeta CRC: Médico
@@ -42,7 +42,7 @@ Quiero recordar mis turnos anteriores.
 nombre, apellido, especialidad, matricula, horariosAtencion
 
 
-![Captura de pantalla 2025-04-21 143544](medicoCRC.png)
+![Captura de pantalla](medicoCRC.png)
 
 
 
@@ -64,7 +64,7 @@ Me encargo de la gestión de la agenda. Registro nuevos pacientes.organizo turno
 
 **Propiedad**:nombre,apellido,dni,email,telefono,direccion
 
-![Captura de pantalla 2025-04-21 143551](recepcionistaCRC.png)
+![Captura de pantalla](recepcionistaCRC.png)
 
 
 
@@ -85,7 +85,7 @@ Me encargo de la gestión de la agenda. Registro nuevos pacientes.organizo turno
 **Propiedad:** fecha, hora, estado, paciente,motivoCancelacion.
 
 
-![Captura de pantalla 2025-04-09 225917](turnoCRC.png)
+![Captura de pantalla](turnoCRC.png)
 
 ### Tarjeta CRC: Agenda
 
@@ -104,7 +104,7 @@ Me encargo de la gestión de la agenda. Registro nuevos pacientes.organizo turno
 **Propiedad:** fechaInicio, fechaFin, medicoId, listaTurnos,turno.
 
 
-![Captura de pantalla 2025-04-09 225817](agendaCRC.png)
+![Captura de pantalla](agendaCRC.png)
 
 
 * [Tarjetas CRC](https://drive.google.com/file/d/1u_hI6YER85QZzXQFLu4y4vB0H0hHy3-j/view?usp=sharing)
