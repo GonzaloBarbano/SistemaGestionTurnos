@@ -191,4 +191,4 @@ La herencia permite que una entidad herede características de otra.
 
 ![BocetoDiseñodeClases](Boceto_Inicial_Clases.png)
 
-[Enlace del Boceto](https://drive.google.com/file/d/1FZT_aHYFLC1zb0carn5iwjVPcbPRZxxZ/view?usp=sharing)
+[Enlace del Boceto](https://drive.google.com/drive/my-drive?hl=es)
