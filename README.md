@@ -11,7 +11,6 @@
 
 ---
 # Introduccion 
-Este proyecto tiene como objetivo la implementación de un sistema para la gestión de turnos médicos en un centro de salud. El sistema permite registrar pacientes, médicos, y gestionar los turnos de manera eficiente.
 
 - Este proyecto tiene como objetivo la implementación de un sistema para la gestión de turnos médicos en un centro de salud.Está hecho usando Programacion Orientada a Objetos, lo que significa que usamos clases para representar cosas como los pacientes, los médicos y los turnos. El sistema permite registrar pacientes, médicos, y gestionar los turnos de manera eficiente. 
 
