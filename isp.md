@@ -11,10 +11,7 @@ Para aplicar este principio, se dividieron las grandes estructuras en interfaces
 
 Ejemplo del mundo real: 
 
-Imaginá que una recepcionista solo necesita una lista con los nombres de los pacientes del día y sus horarios. Pero en vez de eso, le entregan un archivo enorme con historiales médicos completos, reportes administrativos y datos contables. No solo es innecesario, sino que hace su trabajo más difícil y aumenta las chances de cometer errores.
-
-En cambio, si solo recibe la información que le corresponde, puede trabajar de forma más rápida, clara y segura. Ese es justamente el objetivo del principio de segregación de interfaces: que cada parte del sistema acceda solo a lo que realmente necesita.
-
+Podría ser la contratación de servicios de telecomunicaciones. Si una persona contrata solo un servicio de teléfono fijo, no debería verse afectada por problemas o actualizaciones relacionadas con internet o televisión por cable, incluso si el proveedor de servicios de internet (ISP) ofrece un paquete que los incluye. La segregación de interfaces se aplica al crear interfaces más pequeñas y específicas para cada servicio, evitando que un cliente dependa de métodos que no utiliza. 
 
 
 ## Estructura de Clases
