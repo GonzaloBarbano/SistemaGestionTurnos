@@ -1,5 +1,5 @@
 # Anexo - Principios SOLID
-Los principios SOLID son un conjunto de cinco principios de diseño orientado a objetos que buscan hacer que el software sea más comprensible, flexible y mantenible.A continuación, se presenta una breve explicación de cada uno de ellos
+Los Principios SOLID tienen cinco principios de diseño de clases Orientado a Objetos. Son un conjunto de reglas y mejores prácticas a seguir al diseñar una estructura de clase.
 
 * [Responsabilidad Única (SRP)](srp.md)
 
