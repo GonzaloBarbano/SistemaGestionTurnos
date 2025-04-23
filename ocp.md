@@ -20,4 +20,4 @@ agregar una nueva es tan simple como conectar una nueva unidad, sin tocar las ya
 
 ## Estructura de Clases
 ![SolidOcp](ocp.png)
-[OCP](https://drive.google.com/drive/folders/1n4uqk2LVsMg0_DCwhau6GO2h1L_wEqLW?hl=es)
+[OCP](https://drive.google.com/file/d/1zbCc4-IQe8Mh6bt_k6AOmy6T_MoD2QwO/view?usp=sharing)
