@@ -20,7 +20,7 @@
 
 * [Anexos](anexos.md)
 
-* [DiagramasUMl](diagramasuml.md)
+* [DiagramasUML](diagrama_UML.md)
 
 * [HerramientasAgile](tarjeta_crc.md)
 
