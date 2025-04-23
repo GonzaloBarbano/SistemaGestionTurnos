@@ -1,8 +1,6 @@
 ## Tarjetas CRC
-Las Tarjetas CRC (Clase-Responsabilidad-Colaboración) constituyen una
-herramienta esencial en el enfoque de la programación orientada a objetos (POO). Se
-utilizan para identificar y definir las clases principales de un sistema, así como sus
-responsabilidades y colaboraciones dentro del contexto del sistema
+
+Las tarjetas CRC (Class Responsibility Collaboration) son una herramienta visual para el diseño de software orientado a objetos, especialmente útil para la lluvia de ideas y el modelado de clases. Ayudan a identificar las clases, sus responsabilidades y cómo colaboran entre sí. 
 
 ### Tarjeta CRC: Paciente
 
