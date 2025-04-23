@@ -15,8 +15,7 @@ El principio de abierto/cerrado (OCP) propone una solución clara: que los siste
 
 Ejemplo del mundo real
 
-Un ejemplo del mundo real sería el de una máquina expendedora diseñada inicialmente para ofrecer solo tres bebidas. Si cada nueva bebida obliga a reprogramar la lógica principal, mantener el sistema se vuelve complejo. Pero si cada bebida funciona como un módulo independiente,
-agregar una nueva es tan simple como conectar una nueva unidad, sin tocar las ya existentes.
+En el desarrollo de software en un sistema de gestión de bases de datos (DBMS). El DBMS puede ser abierto a la extensión para admitir nuevos tipos de datos sin necesidad de modificar su código base. Esto se logra utilizando la abstracción de "tipo de datos" y permitiendo que cada nuevo tipo de datos implemente esta abstracción.
 
 ## Estructura de Clases
 ![SolidOcp](ocp.png)
