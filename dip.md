@@ -15,6 +15,4 @@ Esto permitió cambiar o reemplazar el sistema de notificación sin alterar el r
 
 Ejemplo del mundo real :
 
-Imaginemos que un restaurante tiene una aplicación para gestionar pedidos en línea. La aplicación está directamente conectada a un sistema de pago específico, como una pasarela de pagos.
-Si el restaurante decide cambiar de proveedor de pagos, tendría que modificar toda la aplicación para adaptarse a las nuevas herramientas del nuevo proveedor.
-Sin embargo, si la aplicación estuviera diseñada para depender de una interfaz común de pago (en lugar de depender de un proveedor específico), solo necesitarían cambiar la implementación del sistema de pago sin tocar el resto de la aplicación. Esto haría que la app sea más flexible y fácil de actualizar, reduciendo el riesgo de errores al modificar solo una pequeña parte del sistema.
+En la arquitectura de un sistema de notificaciones. Un módulo de alto nivel (el servicio de notificaciones) depende de una interfaz abstracta que define el método de envío de mensajes. Las clases de bajo nivel (notificador de correo electrónico, notificador de SMS) implementan esta interfaz, permitiendo al servicio de notificaciones cambiar el método de envío sin modificar su código. 
