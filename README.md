@@ -1,7 +1,7 @@
 # Sistema de Gestion de Turnos 
 
 ---
-##  Datos del Proyecto  
+
 |         |      |  
 |-------------------|----------------------|  
 | **Apellido y Nombre** | Gonzalo Barbano Sumay         |  
@@ -10,21 +10,18 @@
 | **Año**           | 2025                 |  
 
 ---
+# Introduccion 
 
-## ✨ INTRODUCCIÓN  
-**Este repositorio contiene el diseño conceptual inicial de un sistema de gestion de turnos médicos para un pequeño centro de salid, aplicando los principios de la Programación Orientada a Objetos. Este es el primer entregable del trabajo práctico de la materia Deiseño Orientado a Objetos.**
-  
+- Este proyecto consiste en crear un sistema para organizar los turnos en un Centro de Salud. Está hecho usando Programación Orientada a Objetos (POO), lo que significa que usamos clases para representar cosas como los pacientes, los médicos y los turnos. La idea es que el sistema ayude a administrar los turnos de forma más clara y ordenada, permitiendo asignarlos y hacer un seguimiento de manera más fácil.
+
 ---
 
-## 📁 DIAGRAMAS Y DISEÑOS
-   **Puedes encontrar informacion adicional en:**
-   
-🔗 **[Anexos](anexos.md)**  
-🔗 **[Diagramas UML](diagramasUML.md)**    
-🔗 **[Diagramas de Casos de Uso](diagramas_de_casos_de_uso.md)**    
-🔗 **[Escenario de Casos de Uso](escenarios_de_casos_de_uso.md)**    
-🔗 **[Herramientas Agile](herramientas_agile.md)**
+# Diagrama y Diseños  
 
+* [Anexos](anexos.md)
 
+* [DiagramasUMl](diagramasuml.md)
+
+* [HerramientasAgile](tarjeta_crc.md)
 
 ---
