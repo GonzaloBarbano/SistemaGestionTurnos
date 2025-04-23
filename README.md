@@ -12,7 +12,7 @@
 ---
 # Introduccion 
 
-- Este proyecto consiste en crear un sistema para organizar los turnos en un Centro de Salud. Está hecho usando Programación Orientada a Objetos (POO), lo que significa que usamos clases para representar cosas como los pacientes, los médicos y los turnos. La idea es que el sistema ayude a administrar los turnos de forma más clara y ordenada, permitiendo asignarlos y hacer un seguimiento de manera más fácil.
+- Este proyecto consiste en crear un sistema para organizar los turnos en un Centro de Salud. Está hecho usando Diseño Orientado a Objetos (DOO), lo que significa que usamos clases para representar cosas como los pacientes, los médicos y los turnos. La idea es que el sistema ayude a administrar los turnos de forma más clara y ordenada, permitiendo asignarlos y hacer un seguimiento de manera más fácil.
 
 ---
 
