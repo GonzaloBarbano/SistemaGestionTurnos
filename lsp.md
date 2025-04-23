@@ -13,8 +13,9 @@ El principio de sustitución de Liskov dice que una subclase debe poder reemplaz
 
 La solución fue redefinir claramente qué acciones puede realizar cada tipo de usuario. Así, cada uno cumple solo con sus responsabilidades, lo que hace el sistema más claro, seguro y fácil de mantener.
 
-Ejemplo real :
-Es como en una empresa, no todos los empleados deben tener acceso al laboratorio. Si se asignan permisos según el rol desde el inicio, no hace falta controlar cada caso especial.
+Ejemplo real:
+Podría ser en la creación de un programa de gestión de animales. Si se define una clase base Animal con un método volar(), y luego se crea una subclase Pinguino que no puede volar, violaríamos el LSP al no poder sustituir cualquier Animal por un Pinguino sin que el programa deje de funcionar correctamente, ya que volar() no se puede aplicar a un pingüino. 
+
 
 ## Estructura de Clases
 
