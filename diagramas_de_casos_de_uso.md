@@ -32,7 +32,7 @@ Este caso de uso permite al paciente o al personal administrativo cancelar un tu
 ### Diagrama de Casos de Uso 5: Registrar atencion medica
 Una vez que el paciente es atendido, el médico registra en el sistema las observaciones clínicas, diagnóstico y tratamiento.
 
-![RegistrarAtencionMedica](Registar_atencion_medica.png)
+![RegistrarAtencionMedica](Registrar_nuevo_paciente.png)
 
 * [Registrar atencion medica](https://drive.google.com/file/d/1jtuhuOJIqVe_Mi7381uciaxbWoqfH7F9/view?usp=sharing)
 
