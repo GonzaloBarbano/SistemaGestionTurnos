@@ -1,4 +1,4 @@
-# Sistema de Gestion de Turnos 
+# Sistema de Gestion de Turnos - Diseño de Sistema
 
 ---
 
