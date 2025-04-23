@@ -17,6 +17,5 @@ maginemos un recepcionista en una clínica que tiene que hacer todo él solo: at
 
 ## Estructuras de Clases 
 
-![Solid(SRP)](https://github.com/user-attachments/assets/c2500381-d78d-46d7-ab0b-18cccc0eb7a9)
-
+![Solid(SRP)](srp.png)
 [Estructura de Clases](https://drive.google.com/drive/folders/1n4uqk2LVsMg0_DCwhau6GO2h1L_wEqLW?hl=es)
