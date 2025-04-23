@@ -2,188 +2,154 @@
 
  - ¿Que es el Paradigma Orientado a Objetos?
 
- -  Es un paradigma de programación basado en el concepto de objetos, que son entidades que combinan datos 
-    (atributos) y comportamientos (métodos). Este enfoque permite organizar el código de manera modular y 
-    reutilizable, facilitando el desarrollo y mantenimiento de software.
+Es un paradigma de programación basado en la organización del código en torno a "objetos" que representan entidades del mundo real. Cada objeto encapsula datos y comportamientos que lo definen y lo hacen interactuar con otros objetos. Este enfoque permite mejorar la reutilización del código, la modularidad y la mantenibilidad de los sistemas.
+
+# Fundamentos de la Programacion Orientada a Objetos
+
+-**Abstracción**
+
+La abstraccion facilita la creación de modelos simplificados de sistemas complejos, enfocándose en los aspectos esenciales. Permite ocultar los detalles internos y presentar una interfaz simple y comprensible.
+
+Ejemplo: 
+Un ejemplo clásico es un coche: para conducir, solo necesitas interactuar con el volante, el acelerador y el freno, sin necesidad de entender cómo funciona el motor o la transmisión. 
 
 
-# Fundamentos de la Programacion Orientada a Objetos 
+-**Encapsulamiento**
 
- - Clase y Objetos : Son plantillas o moldes para crear objetos. Definen los atributos y métodos que tendrán los 
-                    objetos.
- 
- - Ejemplo : Piensa en una receta de pizza. La receta describe los ingredientes y los pasos para hacer una pizza, 
-   pero no es una pizza real, sino solo un concepto.
-   La receta es la clase.
+El encapsulamiento consiste en ocultar los detalles internos de un objeto y exponer solo lo necesario. Solo se pueden modificar o consultar mediante métodos definidos. Esto evita errores y protege la integridad de los datos.
 
-    Cada pizza que cocinas usando la receta es un objeto basado en la clase "Receta de Pizza".
+Ejemplo:
+Una cuenta bancaria, la cuenta tiene atributos internos como el saldo y el número de cuenta, que son privados y no accesibles directamente desde fuera de la clase. En cambio, se proporciona métodos públicos para depositar, retirar y consultar el saldo. 
 
+  
+-**Herencia**
 
-  - Objetos: Son instancias de una clase; cada objeto tiene su propio estado y comportamiento.
+La herencia permite que una clase derive de otra, reutilizando atributos y métodos. Esto permite crear una jerarquía de clases donde las más específicas amplían o especializan a las más generales.
 
- 
-  - Encapsulamiento: Consiste en ocultar los detalles internos de un objeto y exponer solo lo necesario para su uso.
-  El encapsulamiento oculta detalles internos y solo permite acceso a lo necesario.
+Ejemplo: 
+Considera un ejemplo sencillo con clases Animal, Perro y Gato:
+Clase Base (Padre): Animal
+Clase Hija (Heredada): Perro
+Clase Hija (Heredada): Gato
 
-  - Ejemplo:
+-**Polimorfismo**
 
-     Un control remoto tiene botones para cambiar el canal y subir el volumen, pero no necesitas saber cómo funciona 
-    internamente el circuito para usarlo.
+El polimorfismo permite que diferentes clases respondan de manera distinta a un mismo método. 
 
-  Los botones son la interfaz pública (lo que el usuario puede tocar).
-
-  Los circuitos internos están ocultos dentro del control (no se pueden manipular directamente).
-
-
-- Herencia: 
-  Permite que una clase (subclase) herede atributos y métodos de otra clase (superclase), promoviendo la 
-  reutilización del código.
-
-La herencia permite que una entidad herede características de otra.
-
-- Ejemplo:
-   Imagina que tienes una bicicleta y una motocicleta.
-
-    Ambas tienen ruedas, manubrio y frenos (atributos comunes).
-
-    Pero la motocicleta tiene motor, mientras que la bicicleta no
-
-  - Polimorfismo: Permite que un mismo método tenga diferentes comportamientos según el objeto que lo utilice.
-
-    El polimorfismo permite que diferentes objetos respondan de manera diferente a una misma acción.
-
-  - Ejemplo:
-
-    Un músico toca diferentes instrumentos, pero cada uno suena distinto.
-
-    Si le das una guitarra, tocará acordes.
-
-    Si le das un piano, tocará notas.
-
-    Si le das una batería, hará ritmos.
-
-- Abstracción
-  La abstracción oculta los detalles complejos y solo muestra lo esencial.
-
-- Ejemplo:  
-
-    Piensa en conducir un coche.
-
-    Sabes que para arrancarlo solo giras la llave o presionas un botón.
-
-    No necesitas conocer cómo funciona el motor internamente, la combustión, la transmisión, etc.
-
-    La abstracción en POO funciona igual: te da herramientas sencillas sin mostrar la complejidad interna.
+Ejemplo: 
+Se puede tener una clase base Animal con un método hacerSonido(). Las clases Perro y Gato podrían heredar de Animal y redefinir el método hacerSonido() para que cada una haga su sonido específico ("Guau!" para Perro y "Miau!" para Gato). De esta forma, al llamar a hacerSonido() en un objeto Animal, el comportamiento actual será el de la subclase específica (Perro o Gato). 
 
 
 # Requisitos iniciales del sistema
 
-- Registro de usuarios: El sistema debe permitir la creación y gestión de usuarios.
+- Registro de usuarios: Permitir el registro de pacientes y profesionales de la salud.
 
-- Gestión de turnos: Los usuarios deben poder solicitar, cancelar y reprogramar turnos.
+- Gestión de turnos: Gestionar la asignación de turnos según la disponibilidad de los médicos.
 
-- Notificaciones: El sistema debe enviar recordatorios de turnos vía correo o mensaje.
+- Notificaciones: Enviar notificaciones automáticas sobre cambios en los turnos.
 
-- Historial de turnos: Se debe permitir consultar turnos pasados.
+- Historial de turnos: Mantener un historial de turnos de cada paciente y profesional.
 
--Control de acceso:Solo usuarios registrados pueden acceder a ciertas funciones.
+-Control de acceso: Proteger la información de contacto mediante acceso restringido.
 
 
-# Desarrollar cinco casos de uso con el formato
-  adecuado:
+# Casos de uso
   
-  
-## Consulta de turnos
+## Agendar un turno
 
--  Descripción:
-   El paciente puede ver los turnos que tiene registrados, ya sea próximos o pasados.
+-Actor(es): Paciente, Sistema.
 
--  Precondiciones:
+-Descripción breve: Un paciente solicita un turno con un médico disponible.
 
-   El paciente debe haber iniciado sesión.
+-Flujo principal:
 
-- Postcondiciones:
+ 1) El paciente accede al sistema.
 
-   Se muestra la información de los turnos asociados al paciente.
+ 2) Selecciona un médico y un horario disponible.
 
+ 3) El sistema verifica la disponibilidad y agenda el turno.
 
-## Solicitud de turno
+ 4) Se envía una notificación de confirmación.
 
+-Precondiciones: El paciente debe estar registrado.
 
-- Descripción:
-  El paciente accede al sistema para solicitar un turno con un médico en una fecha y hora disponibles según la 
-  especialidad de cada medico.
+-Postcondiciones: El turno queda registrado en el sistema.
 
-- Precondiciones:
+## Cancelar un turno
 
-  El paciente debe estar registrado e iniciar sesión en el sistema.
+-Actor(es): Paciente, Médico, Sistema.
 
-  Deben existir médicos disponibles con horarios habilitados.
+-Descripción breve: Un paciente o médico cancela un turno agendado.
 
-- Postcondiciones:
+-Flujo principal:
 
-  Se registra un nuevo turno en el sistema.
+ 1) El paciente o médico accede al sistema.
 
-  El paciente recibe una confirmación del turno solicitado.
+ 2)Selecciona el turno a cancelar.
 
+ 3) El sistema actualiza el estado a "Cancelado".
 
-### Notificación de turnos
+ 4) Se envía una notificación a los involucrados.
 
+-Precondiciones: El turno debe estar previamente agendado.
 
-- Descripción:
-  El sistema envía notificaciones automáticas a los pacientes para recordarles sus turnos próximos.
+-Postcondiciones: El turno queda cancelado en el sistema.
 
-- Precondiciones:
+### Consultar historial de turnos
 
-  El paciente debe tener un turno registrado en el sistema.
+-Actor(es): Paciente, Médico, Sistema.
 
-  Debe haber un medio de contacto disponible (correo electrónico, SMS, etc.).
+-Descripción breve: Un usuario visualiza su historial de turnos.
 
-- Postcondiciones:
+-Flujo principal:
 
-  El paciente es notificado del turno.
+ 1) El usuario accede al sistema.
 
-  Se registra que la notificación fue enviada.
- 
+ 2)Selecciona la opción "Historial de Turnos".
+
+ 3)El sistema muestra la lista de turnos pasados y futuros.
+
+-Precondiciones: El usuario debe estar registrado.
+
+-Postcondiciones: Se muestra el historial solicitado.
+
 ### Modificar turno
 
-- Descripción:
+-Actor(es): Médico, Sistema.
 
-  El paciente puede cambiar la fecha u hora de un turno previamente solicitado, siempre que haya disponibilidad.
+-Descripción breve: Un médico ajusta la fecha u horario de un turno asignado.
 
-- Precondiciones:
+-Flujo principal:
 
-  El paciente debe haber iniciado sesión.
+ 1) El médico accede al sistema.
 
-  El turno debe estar activo y no haber pasado aún.
+ 2) Selecciona un turno pendiente.
 
-  Debe haber disponibilidad en el nuevo horario solicitado.
+ 3) Modifica la fecha u horario.
 
-- Postcondiciones:
+ 4) Se notifica al paciente.
 
-  Se actualiza la información del turno en el sistema.
+-Precondiciones: El turno debe estar registrado y en estado "Pendiente".
 
-  Se notifica al paciente del cambio realizado.
+-Postcondiciones: El turno queda modificado en el sistema.
 
-### Cancelar turno
+### Notificar cambios en turnos
 
-- Descripción:
+-Actor(es): Sistema.
 
-  El paciente puede cancelar un turno registrado en el sistema si no puede asistir.
+-Descripción breve: El sistema envía notificaciones automáticas.
 
-- Precondiciones:
+-Flujo principal:
 
-  El paciente debe haber iniciado sesión.
+ 1) Se detecta un cambio en el estado de un turno.
 
-  El turno debe estar activo y no haber pasado aún.
+ 2) El sistema genera una notificación.
 
-- Postcondiciones:
+ 3) Se envía por correo o mensaje de texto.
 
-  El turno es eliminado del sistema.
+-Precondiciones: El turno debe existir y tener un estado asignado.
 
-  El horario liberado queda disponible para otros pacientes.
-
-
+-Postcondiciones: El paciente y/o médico recibe la notificación.
 
 ---
 
