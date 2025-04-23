@@ -1,74 +1,189 @@
-## 📌 **Introducción al Diseño Orientado a Objetos**  
- **Definición del paradigma orientado a objetos**  
-La Programación Orientada a Objetos (POO) es un enfoque de desarrollo basado en la creación de entidades llamadas **objetos**, que agrupan datos y comportamiento en una sola unidad. Su importancia radica en la reutilización de código, modularidad y escalabilidad.
+# Introduccion 
 
----
+ - ¿Que es el Paradigma Orientado a Objetos?
 
-## 📌 **Los Cuatro Fundamentos de POO**  
+ -  Es un paradigma de programación basado en el concepto de objetos, que son entidades que combinan datos 
+    (atributos) y comportamientos (métodos). Este enfoque permite organizar el código de manera modular y 
+    reutilizable, facilitando el desarrollo y mantenimiento de software.
 
-✅ **Encapsulamiento**  
- *Ejemplo:* Un automóvil tiene un motor encapsulado. Desde afuera, los usuarios pueden acelerar o frenar sin conocer el funcionamiento interno del motor.  
 
-✅ **Herencia**  
- *Ejemplo:* Un "Auto Deportivo" hereda propiedades de la clase "Auto", pero añade nuevas características como mayor velocidad.  
+# Fundamentos de la Programacion Orientada a Objetos 
 
-✅ **Polimorfismo**  
- *Ejemplo:* Un "pago" puede realizarse con tarjeta de crédito, débito o en efectivo. Aunque la acción es la misma (pagar), el comportamiento varía según el método utilizado.  
+ - Clase y Objetos : Son plantillas o moldes para crear objetos. Definen los atributos y métodos que tendrán los 
+                    objetos.
+ 
+ - Ejemplo : Piensa en una receta de pizza. La receta describe los ingredientes y los pasos para hacer una pizza, 
+   pero no es una pizza real, sino solo un concepto.
+   La receta es la clase.
 
-✅ **Abstracción**  
- *Ejemplo:* Un usuario de una app de delivery solo ve opciones para pedir comida, sin preocuparse por la lógica interna del sistema.  
+    Cada pizza que cocinas usando la receta es un objeto basado en la clase "Receta de Pizza".
 
----
 
-## ✅ **Requisitos del Sistema**  
-1️⃣ Debe permitir a los usuarios agendar turnos.  
-2️⃣ Debe enviar recordatorios automáticos.  
-3️⃣ Debe permitir la cancelación y reprogramación de turnos.  
-4️⃣ Debe gestionar diferentes tipos de usuarios (pacientes, médicos, administradores).  
-5️⃣ Debe almacenar historiales de turnos.  
+  - Objetos: Son instancias de una clase; cada objeto tiene su propio estado y comportamiento.
 
----
+ 
+  - Encapsulamiento: Consiste en ocultar los detalles internos de un objeto y exponer solo lo necesario para su uso.
+  El encapsulamiento oculta detalles internos y solo permite acceso a lo necesario.
 
-## 📌 **Casos de Uso**  
+  - Ejemplo:
 
-### ✅ **Caso 1: Agendar turno**  
-**Actor(es):** Paciente  
-**Descripción:** El paciente solicita un turno.  
-**Flujo principal:**  
-1. El usuario ingresa al sistema.  
-2. Selecciona fecha y hora.  
-3. Confirma el turno.  
+     Un control remoto tiene botones para cambiar el canal y subir el volumen, pero no necesitas saber cómo funciona 
+    internamente el circuito para usarlo.
 
-### ✅ **Caso 2: Cancelar turno**  
-**Actor(es):** Paciente  
-**Descripción:** El paciente decide cancelar un turno previamente agendado.  
-**Flujo principal:**  
-1. El usuario inicia sesión.  
-2. Busca el turno en su historial.  
-3. Cancela el turno y recibe una confirmación.  
+  Los botones son la interfaz pública (lo que el usuario puede tocar).
 
-### ✅ **Caso 3: Registrar un nuevo usuario**  
-**Actor(es):** Administrador  
-**Descripción:** Un administrador registra un nuevo usuario en el sistema.  
-**Flujo principal:**  
-1. El administrador accede al sistema.  
-2. Ingresa los datos del nuevo usuario.  
-3. Confirma la creación del usuario.  
+  Los circuitos internos están ocultos dentro del control (no se pueden manipular directamente).
 
-### ✅ **Caso 4: Notificación de recordatorio**  
-**Actor(es):** Sistema  
-**Descripción:** El sistema envía un recordatorio de turno.  
-**Flujo principal:**  
-1. El sistema verifica los turnos del día siguiente.  
-2. Envía una notificación al paciente.  
 
-### ✅ **Caso 5: Modificar horario de turno**  
-**Actor(es):** Paciente  
-**Descripción:** El paciente desea cambiar la fecha u hora de su turno.  
-**Flujo principal:**  
-1. El usuario accede a su historial.  
-2. Selecciona el turno que desea modificar.  
-3. Elige una nueva fecha/hora y confirma el cambio.  
+- Herencia: 
+  Permite que una clase (subclase) herede atributos y métodos de otra clase (superclase), promoviendo la 
+  reutilización del código.
+
+La herencia permite que una entidad herede características de otra.
+
+- Ejemplo:
+   Imagina que tienes una bicicleta y una motocicleta.
+
+    Ambas tienen ruedas, manubrio y frenos (atributos comunes).
+
+    Pero la motocicleta tiene motor, mientras que la bicicleta no
+
+  - Polimorfismo: Permite que un mismo método tenga diferentes comportamientos según el objeto que lo utilice.
+
+    El polimorfismo permite que diferentes objetos respondan de manera diferente a una misma acción.
+
+  - Ejemplo:
+
+    Un músico toca diferentes instrumentos, pero cada uno suena distinto.
+
+    Si le das una guitarra, tocará acordes.
+
+    Si le das un piano, tocará notas.
+
+    Si le das una batería, hará ritmos.
+
+- Abstracción
+  La abstracción oculta los detalles complejos y solo muestra lo esencial.
+
+- Ejemplo:  
+
+    Piensa en conducir un coche.
+
+    Sabes que para arrancarlo solo giras la llave o presionas un botón.
+
+    No necesitas conocer cómo funciona el motor internamente, la combustión, la transmisión, etc.
+
+    La abstracción en POO funciona igual: te da herramientas sencillas sin mostrar la complejidad interna.
+
+
+# Requisitos iniciales del sistema
+
+- Registro de usuarios: El sistema debe permitir la creación y gestión de usuarios.
+
+- Gestión de turnos: Los usuarios deben poder solicitar, cancelar y reprogramar turnos.
+
+- Notificaciones: El sistema debe enviar recordatorios de turnos vía correo o mensaje.
+
+- Historial de turnos: Se debe permitir consultar turnos pasados.
+
+-Control de acceso:Solo usuarios registrados pueden acceder a ciertas funciones.
+
+
+# Desarrollar cinco casos de uso con el formato
+  adecuado:
+  
+  
+## Consulta de turnos
+
+-  Descripción:
+   El paciente puede ver los turnos que tiene registrados, ya sea próximos o pasados.
+
+-  Precondiciones:
+
+   El paciente debe haber iniciado sesión.
+
+- Postcondiciones:
+
+   Se muestra la información de los turnos asociados al paciente.
+
+
+## Solicitud de turno
+
+
+- Descripción:
+  El paciente accede al sistema para solicitar un turno con un médico en una fecha y hora disponibles según la 
+  especialidad de cada medico.
+
+- Precondiciones:
+
+  El paciente debe estar registrado e iniciar sesión en el sistema.
+
+  Deben existir médicos disponibles con horarios habilitados.
+
+- Postcondiciones:
+
+  Se registra un nuevo turno en el sistema.
+
+  El paciente recibe una confirmación del turno solicitado.
+
+
+### Notificación de turnos
+
+
+- Descripción:
+  El sistema envía notificaciones automáticas a los pacientes para recordarles sus turnos próximos.
+
+- Precondiciones:
+
+  El paciente debe tener un turno registrado en el sistema.
+
+  Debe haber un medio de contacto disponible (correo electrónico, SMS, etc.).
+
+- Postcondiciones:
+
+  El paciente es notificado del turno.
+
+  Se registra que la notificación fue enviada.
+ 
+### Modificar turno
+
+- Descripción:
+
+  El paciente puede cambiar la fecha u hora de un turno previamente solicitado, siempre que haya disponibilidad.
+
+- Precondiciones:
+
+  El paciente debe haber iniciado sesión.
+
+  El turno debe estar activo y no haber pasado aún.
+
+  Debe haber disponibilidad en el nuevo horario solicitado.
+
+- Postcondiciones:
+
+  Se actualiza la información del turno en el sistema.
+
+  Se notifica al paciente del cambio realizado.
+
+### Cancelar turno
+
+- Descripción:
+
+  El paciente puede cancelar un turno registrado en el sistema si no puede asistir.
+
+- Precondiciones:
+
+  El paciente debe haber iniciado sesión.
+
+  El turno debe estar activo y no haber pasado aún.
+
+- Postcondiciones:
+
+  El turno es eliminado del sistema.
+
+  El horario liberado queda disponible para otros pacientes.
+
+
 
 ---
 
