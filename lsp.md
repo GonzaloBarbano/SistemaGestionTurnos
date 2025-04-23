@@ -20,4 +20,4 @@ Es como en una empresa, no todos los empleados deben tener acceso al laboratorio
 
 ![SolidLSP](lsp.png)
 
-[Estructura de clases](https://drive.google.com/file/d/1WZScDO7eqKE-_P1BCKp5VaX5jvYs6Hy6/view?usp=sharing)
+[LSP](https://drive.google.com/file/d/1WZScDO7eqKE-_P1BCKp5VaX5jvYs6Hy6/view?usp=sharing)
