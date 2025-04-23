@@ -18,4 +18,4 @@ maginemos un recepcionista en una clínica que tiene que hacer todo él solo: at
 ## Estructuras de Clases 
 
 ![Solid(SRP)](srp.png)
-[SRP](https://drive.google.com/drive/folders/1n4uqk2LVsMg0_DCwhau6GO2h1L_wEqLW?hl=es)
+[SRP](https://drive.google.com/file/d/1E-nwyAp3TQXZsUNR2Pzokvku0YcNTzUQ/view?usp=sharing)
