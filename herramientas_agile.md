@@ -107,4 +107,4 @@ Me encargo de la gestión de la agenda. Registro nuevos pacientes.organizo turno
 ![Captura de pantalla](agendaCRC.png)
 
 
-* [Tarjetas CRC](https://drive.google.com/file/d/1u_hI6YER85QZzXQFLu4y4vB0H0hHy3-j/view?usp=sharing)
+
