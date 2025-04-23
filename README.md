@@ -22,6 +22,6 @@
 
 * [DiagramasUML](diagramasUML.md)
 
-* [HerramientasAgile](tarjetas_crc.md)
+* [HerramientasAgile](herramientas_agile.md)
 
 ---
