@@ -21,7 +21,7 @@ Quiero recordar mis turnos anteriores.
 
 **Propiedad:** nombre, apellido, fechaNacimiento, DNI, direccion,telefono,email.
 
-![Captura de pantalla 2025-04-21 143537](https://github.com/user-attachments/assets/c451b238-8081-4d05-96f9-27afa8450291)
+![Captura de pantalla 2025-04-21 143537](pacienteCRC.png)
 
 
 ### Tarjeta CRC: Médico
@@ -42,7 +42,7 @@ Quiero recordar mis turnos anteriores.
 nombre, apellido, especialidad, matricula, horariosAtencion
 
 
-![Captura de pantalla 2025-04-21 143544](https://github.com/user-attachments/assets/90bddab9-6c66-4cc4-bced-d8de16c1cf31)
+![Captura de pantalla 2025-04-21 143544](medicoCRC.png)
 
 
 
@@ -64,7 +64,7 @@ Me encargo de la gestión de la agenda. Registro nuevos pacientes.organizo turno
 
 **Propiedad**:nombre,apellido,dni,email,telefono,direccion
 
-![Captura de pantalla 2025-04-21 143551](https://github.com/user-attachments/assets/eda178b8-63a0-4bbf-a609-8c4d89f2b973)
+![Captura de pantalla 2025-04-21 143551](recepcionistaCRC.png)
 
 
 
@@ -85,7 +85,7 @@ Me encargo de la gestión de la agenda. Registro nuevos pacientes.organizo turno
 **Propiedad:** fecha, hora, estado, paciente,motivoCancelacion.
 
 
-![Captura de pantalla 2025-04-09 225917](https://github.com/user-attachments/assets/47206eef-9b7f-41b0-b03b-3728cd20f0ec)
+![Captura de pantalla 2025-04-09 225917](turnoCRC.png)
 
 ### Tarjeta CRC: Agenda
 
@@ -104,7 +104,7 @@ Me encargo de la gestión de la agenda. Registro nuevos pacientes.organizo turno
 **Propiedad:** fechaInicio, fechaFin, medicoId, listaTurnos,turno.
 
 
-![Captura de pantalla 2025-04-09 225817](https://github.com/user-attachments/assets/f49b1418-e2e0-4917-93b5-72d138691247)
+![Captura de pantalla 2025-04-09 225817](agendaCRC.png)
 
 
 * [Tarjetas CRC](https://drive.google.com/file/d/1u_hI6YER85QZzXQFLu4y4vB0H0hHy3-j/view?usp=sharing)
