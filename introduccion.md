@@ -159,4 +159,4 @@ Se puede tener una clase base Animal con un método hacerSonido(). Las clases Pe
 
 ![BocetoDiseñodeClases](Boceto_Inicial_Clase.png)
 
-[Enlace del Boceto](https://drive.google.com/file/d/1iB7omXTPQ9f37ZyAKf93kkn1HpetYByJ/view?usp=sharing)
+[Enlace del Boceto](https://drive.google.com/file/d/1v7G3hAV72WDBQ7JRd2v-9AdAbzHr9bCW/view?usp=sharing)
