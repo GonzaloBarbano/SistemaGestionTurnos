@@ -50,7 +50,7 @@ Se puede tener una clase base Animal con un método hacerSonido(). Las clases Pe
 
 - Historial de turnos: Mantener un historial de turnos de cada paciente y profesional.
 
--Control de acceso: Proteger la información de contacto mediante acceso restringido.
+- Control de acceso: Proteger la información de contacto mediante acceso restringido.
 
 
 # Casos de uso
