@@ -55,105 +55,107 @@ Se puede tener una clase base Animal con un método hacerSonido(). Las clases Pe
 
 # Casos de uso
   
-## Agendar un turno
+### Solicitar Turno
 
--Actor(es): Paciente, Sistema.
+-Actor(es): Paciente
 
--Descripción breve: Un paciente solicita un turno con un médico disponible.
+-Descripción breve: El paciente solicita un turno con un médico en una fecha y hora disponible.
 
 -Flujo principal:
 
  1) El paciente accede al sistema.
 
- 2) Selecciona un médico y un horario disponible.
+ 2) Selecciona un médico y visualiza sus horarios disponibles.
 
- 3) El sistema verifica la disponibilidad y agenda el turno.
+ 3) Selecciona fecha, hora y motivo.
 
- 4) Se envía una notificación de confirmación.
+ 4) El sistema registra el turno como pendiente.
+    
+ 5) Se notifica al médico y al paciente.
 
--Precondiciones: El paciente debe estar registrado.
+-Precondiciones: El paciente debe estar registrado en el sistema.
 
--Postcondiciones: El turno queda registrado en el sistema.
+-Postcondiciones: El turno queda agendado en estado pendiente.
 
-## Cancelar un turno
+### Confirmar turno
 
--Actor(es): Paciente, Médico, Sistema.
+-Actor(es): Médico.
 
--Descripción breve: Un paciente o médico cancela un turno agendado.
+-Descripción breve: El médico confirma un turno solicitado por un paciente.
 
 -Flujo principal:
 
- 1) El paciente o médico accede al sistema.
+ 1) El médico accede a su agenda.
 
- 2)Selecciona el turno a cancelar.
+ 2) Visualiza los turnos pendientes.
+ 
+ 3) Selecciona un turno y lo confirma.
 
- 3) El sistema actualiza el estado a "Cancelado".
+ 4) El sistema cambia el estado del turno a “confirmado”.
+    
+ 5) Se notifica al paciente. 
 
- 4) Se envía una notificación a los involucrados.
+-Precondiciones: El turno debe existir y estar en estado pendiente.
 
--Precondiciones: El turno debe estar previamente agendado.
+-Postcondiciones: El turno pasa a estado confirmado.
 
--Postcondiciones: El turno queda cancelado en el sistema.
+### Cancelar turno
 
-### Consultar historial de turnos
+-Actor(es): Paciente o Médico
 
--Actor(es): Paciente, Médico, Sistema.
-
--Descripción breve: Un usuario visualiza su historial de turnos.
+-Descripción breve: Un turno ya asignado es cancelado por alguna de las partes.
 
 -Flujo principal:
 
  1) El usuario accede al sistema.
 
- 2)Selecciona la opción "Historial de Turnos".
+ 2) Selecciona el turno que desea cancelar.
 
- 3)El sistema muestra la lista de turnos pasados y futuros.
+ 3) El sistema cambia el estado del turno a “cancelado”.
 
--Precondiciones: El usuario debe estar registrado.
+ 4) Se notifica a la otra parte involucrada.
 
--Postcondiciones: Se muestra el historial solicitado.
+-Precondiciones: El turno debe existir.
 
-### Modificar turno
+-Postcondiciones: El turno queda en estado cancelado.
 
--Actor(es): Médico, Sistema.
+### Registrar usuario (Paciente o Médico)
 
--Descripción breve: Un médico ajusta la fecha u horario de un turno asignado.
+-Actor(es): Personal Administrativo
+
+-Descripción breve: Un nuevo paciente o médico es cargado en el sistema.
 
 -Flujo principal:
 
- 1) El médico accede al sistema.
+ 1) El personal ingresa los datos requeridos (nombre, contacto, etc
 
- 2) Selecciona un turno pendiente.
+ 2) El sistema valida la información.
 
- 3) Modifica la fecha u horario.
+ 3) Se almacena el nuevo usuario.
 
- 4) Se notifica al paciente.
+-Precondiciones: El usuario no debe estar ya registrado.
 
--Precondiciones: El turno debe estar registrado y en estado "Pendiente".
+-Postcondiciones: El nuevo usuario queda guardado en el sistema.
 
--Postcondiciones: El turno queda modificado en el sistema.
-
-### Notificar cambios en turnos
+### Enviar notificación automática
 
 -Actor(es): Sistema.
 
--Descripción breve: El sistema envía notificaciones automáticas.
+-Descripción breve: El sistema envía una notificación al paciente y al médico cuando un turno cambia de estado.
 
 -Flujo principal:
 
- 1) Se detecta un cambio en el estado de un turno.
+ 1) Un turno es confirmado, modificado o cancelado.
 
- 2) El sistema genera una notificación.
+ 2) El sistema detecta el cambio.
 
- 3) Se envía por correo o mensaje de texto.
+ 3) Se genera y envía la notificación a los contactos registrados.
 
--Precondiciones: El turno debe existir y tener un estado asignado.
+-Precondiciones: Debe haber un cambio en un turno existente.
 
--Postcondiciones: El paciente y/o médico recibe la notificación.
+-Postcondiciones: Los actores involucrados reciben la notificación.
 
----
-
-## Boceto Inicial del Diseño de Clases
+# Boceto Inicial del Diseño de Clases
 
 ![BocetoDiseñodeClases](Boceto_Inicial_Clases.png)
 
